@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="module" src="./static/js/webpack.js"></script>
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="./static/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__logo"><a href="/">별무리</a></div>
+        <ul class="nav__list">
+          <li>
+            <a href="/" class="nav__link" data-link>About Us</a>
+          </li>
+          <li><a href="/study" class="nav__link" data-link>Study</a></li>
+        </ul>
+      </nav>
+      <div id="root"></div>
+    </div>
+  </body>
+</html>
